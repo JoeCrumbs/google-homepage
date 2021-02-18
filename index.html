@@ -3,48 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Google</title>
+    <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul class="navigation">
-          <li class="navigation-left"><a class="navigation-link" href="#">About</a></li>
-          <li class="navigation-left"><a class="navigation-link" href="#">Store</a></li>
-          <li class="navigation-right"><a class="navigation-link" href="#">Sign In</a></li>
-          <li class="navigation-right"><a class="navigation-link" href="#">Kachel</a></li>
-          <li class="navigation-right"><a class="navigation-link" href="#">Images</a></li>
-          <li class="navigation-right"><a class="navigation-link" href="#">Gmail</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div class="flex-container main">
-      <div class="item">
-        <img id="logo" src="images/googlelogo.png"></img>
-      </div>
-    <form class="item" action="#">
-      <input type="text" name="search-field" id="search-field">
-    </form>
+    <div class="container">
+      <header class="header">
+        <nav class="flex-container navigation">
+          <ul class="linklist">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+          <ul class="linklist">
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Kachel</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Gmail</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main class="flex-container main">
+        <div>
+          <img id="logo" src="images/googlelogo.png"></img>
+        </div>
+        <form action="#">
+          <input type="text" name="search-field" id="search-field">
+        </form>
+      </main>
+  
+      <footer class="footer">
+        <div>
+          Germany
+          <hr>
+        </div>
+        <div class="flex-container footer-links">
+          <ul class ="linklist">
+            <li><a class="navigation-link" href="#">Advertising</a></li>
+            <li><a class="navigation-link" href="#">Business</a></li>
+            <li><a class="navigation-link" href="#">How Search works</a></li>
+          </ul>
+          <ul class ="linklist">
+            <li><a class="navigation-link" href="#">Privacy</a></li>
+            <li><a class="navigation-link" href="#">Terms</a></li>
+            <li><a class="navigation-link" href="#">Settings</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
-
-    <footer>
-      <div>
-        Germany
-        <hr>
-      </div>
-      <div class="flex-container footer">
-        <ul class ="navigation">
-          <li class="navigation-left"><a class="navigation-link" href="#">Advertising</a></li>
-          <li class="navigation-left"><a class="navigation-link" href="#">Business</a></li>
-          <li class="navigation-left"><a class="navigation-link" href="#">How Search works</a></li>
-        </ul>
-        <ul class ="navigation">
-          <li class="navigation-left"><a class="navigation-link" href="#">Privacy</a></li>
-          <li class="navigation-left"><a class="navigation-link" href="#">Terms</a></li>
-          <li class="navigation-left"><a class="navigation-link" href="#">Settings</a></li>
-        </ul>
-      </div>
-    </footer>
   </body>
 </html>
