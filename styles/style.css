@@ -131,6 +131,10 @@ nav .nav__linklist a:visited {
     font-size: 0.8125rem;
 }
 
+#nav__linklist__app-menu {
+    line-height: 5px;
+}
+
 #nav__linklist__app-menu:hover {
     background-color: rgba(60,64,67,0.08);
     border-radius: 50%;
@@ -198,7 +202,7 @@ nav .nav__linklist a:visited {
     padding: 0px 15px;
     margin: 10px 5px;
     border-radius: 3px;
-    border-style: none;
+    border: 1px solid #f8f9fa;
     color: #3c4043;
     font-size: 0.875rem;
     background-color: #f8f9fa;
@@ -207,7 +211,6 @@ nav .nav__linklist a:visited {
 
 .main form button:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
     cursor: pointer;
